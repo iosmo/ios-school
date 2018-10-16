@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>iOS School</h1>
+					<p>9th October 2018</p>
+				</section>
+				<section>
+					<h2>The Plan</h2>
+					<ol>
+						<li>Introduction to Swift & Playgrounds</li>
+						<li>Swift - Part II</li>
+						<li>Swift - Part III</li>
+						<li>A Basic App</li>
+						<li>Views and Storyboards</li>
+						<li>Integrations</li>
+						<li>The Register</li>
+						<li>Fix a Register bug</li>
+					</ol>
+				</section>
+				<section>
+					<h2>Prerequisites & Playgrounds</h2>
+					<ul>
+						<li>Xcode (9 or 10)</li>
+						<li>Ruby (bundler) for Cocoapods (not for a while)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Swift</h2>
+					<ul>
+						<li>June 2014</li>
+						<li>Static, strongly typed</li>
+						<li>Based on concepts of Objective-C - based on safety and compile time checks</li>
+						<li>Easier use of Protocols and Extensions (including extending Objective-C) classes</li>
+						<li>Open, public, internal, private and fileprivate</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Swift for Objective C developers</h2>
+					<ul>
+						<li>No more [[[ ]]];</li>
+						<li>Fewer pyramids of doom</li>
+						<li>Inferred types</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h2>Let’s write some Swift</h2>
+						<p>Exercise 1</p>
+						<ul>
+							<li>Constants & variables</li>
+							<li>Assigning & operators</li>
+							<li>Optionals</li>
+							<li>Structs & classes</li>
+							<li>Enums</li>
+							<li>Methods</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Constants & variables</h3>
+					</section>
+					<section>
+						<h3>Assigning & operators</h3>
+					</section>
+					<section>
+						<h3>Optionals</h3>
+					</section>
+					<section>
+						<h3>Structs & classes</h3>
+					</section>
+					<section>
+						<h3>Enums</h3>
+					</section>
+					<section>
+						<h3>Methods</h3>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
